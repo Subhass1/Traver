@@ -1,0 +1,1320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+            Our Header Navbar Design 
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+
+.header {
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 0 5rem 0 5rem;
+}
+
+.header-section {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & i{
+        /* background-color: #f3711b; */
+        color: #000;
+        font-size: 3.5rem;
+        font-weight: 800;
+        display: none;
+    }
+
+}
+
+.header-section .logo {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    & img {
+        width: 4rem;
+    }
+
+    & p {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}
+
+
+.header-section nav {
+
+    & ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    & ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    & ul li a:hover {
+        text-decoration: underline;
+        text-underline-offset: .6rem;
+        color: #f3711b;
+    }
+
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & .btn_1 {
+        padding: .5rem 1rem .5rem 1rem;
+        border: 1px solid #f3711b;
+        background-color: #fff;
+        color: #f3711b;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        font-size: 1.8rem;
+    }
+
+    & .btn_1:hover {
+        background: #f3711b;
+        color: #fff;
+    }
+
+    & .btn_2 {
+        padding: .5rem 1rem .5rem 1rem;
+        border: 1px solid #f3711b;
+        background: #f3711b;
+        color: #fff;
+        font-size: 1.8rem;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+    }
+
+    & .btn_2:hover {
+        background-color: #fff;
+        color: #f3711b;
+        border: 1px solid #f3711b;
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+            Our Home Section Design 
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.Main-section {
+    padding: 3rem 10rem 0 3rem;
+    margin-top: 10rem;
+}
+
+.Hero-main-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18rem;
+
+}
+
+.hero-main-left .hero-main-content {
+    display: flex;
+    align-items: center;
+    margin-top: -20rem;
+
+    & img {
+        width: 6rem;
+    }
+
+    & h2 {
+        font-size: 4rem;
+        font-weight: 500;
+        color: #f3711b;
+    }
+
+    & hr {
+        width: 2.5rem;
+        border: 1px solid #f3711b;
+        margin-left: .6rem;
+    }
+
+
+}
+
+.hero-main-left .hero-main-para {
+
+
+    & h1 {
+        font-size: 8rem;
+        font-weight: 900;
+    }
+
+    & h3 {
+        font-size: 7rem;
+        font-weight: 700;
+    }
+
+    & h5 {
+        font-size: 6rem;
+        font-weight: 500;
+    }
+
+    & p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+}
+
+
+.hero-main-right .hero-main-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* position: relative; */
+    gap: 4rem;
+
+}
+
+.hero-main-images-1 {
+    position: relative;
+
+    & .info_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(207, 202, 202, 0.675);
+        width: 12rem;
+        height: 8rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        margin-top: 14rem;
+        margin-left: -8rem;
+        z-index: 99;
+        position: absolute;
+
+        & h4 {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        & p {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #0000009a;
+            font-weight: 500;
+            margin-top: .5rem;
+        }
+
+
+    }
+
+    & img {
+        width: 20rem;
+        height: 25rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+}
+
+.hero-main-images-2 {
+    margin-top: 12rem;
+    position: relative;
+
+    & .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(207, 202, 202, 0.675);
+        width: 10rem;
+        height: 5rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        margin-left: 2rem;
+        margin-top: -3rem;
+        z-index: 99;
+        position: absolute;
+
+        & h4 {
+            font-size: 1.5rem;
+        }
+
+        & p {
+            font-size: 1.5rem;
+            color: #0000009a;
+        }
+    }
+
+    & img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+}
+
+.hero-main-images-3 {
+    margin-top: -12rem;
+
+    & img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+}
+
+.hero-main-images-4 {
+
+    & img {
+        width: 20rem;
+        height: 25rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+}
+
+.travellers-booking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 8rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    padding: 0 4rem 0 2rem;
+    margin-top: -14rem;
+    z-index: 99;
+    position: relative;
+
+    & hr {
+        height: 4rem;
+        border: 1px solid #000;
+    }
+
+    & button {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        background-color: #f3711b;
+        border: 1px solid #f3711b;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    & button:hover {
+        background-color: #fff;
+        color: #f3711b;
+    }
+
+}
+
+.info-booking {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    & i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        background: #f9ebe2;
+        color: #f3711b;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .booking-content {
+        & h4 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        & p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: .3rem;
+        }
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+            Our About Section Design 
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.about-section {
+    padding: 15rem 5rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-about-section .about-img {
+    position: relative;
+    margin-top: -12rem;
+}
+
+.info-about-img {
+    position: absolute;
+    margin-top: -4rem;
+
+    & img {
+        width: 30rem;
+        height: 30rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        border: 2px solid #fff;
+    }
+}
+
+.info-about-img-1 {
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 8rem;
+
+    & img {
+        width: 25rem;
+        height: 25rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        border: 2px solid #fff;
+    }
+
+}
+
+
+.info-about-img-2 {
+    position: absolute;
+    margin-left: 24rem;
+    /* margin-top: -1rem; */
+
+    & img {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        border: 2px solid #fff;
+    }
+}
+
+.right-about-section {
+    /* margin-top: 6rem; */
+    padding-top: 15rem;
+}
+
+.right-about-section .about-content {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+
+    & h3 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f3711b;
+    }
+
+    & hr {
+        width: 1.5rem;
+        border: 1px solid #f3711b;
+
+    }
+
+}
+
+
+.right-about-section .info-about-content {
+
+    & h1 {
+        font-size: 5rem;
+        margin-top: .8rem;
+        font-weight: bold;
+    }
+
+    & h3 {
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    & h6 {
+        font-size: 4.5rem;
+        font-weight: 400;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+
+.info-visited-travellers {
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+
+}
+
+.info-visitors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 8rem;
+    background-color: rgba(207, 202, 202, 0.675);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    & h4 {
+        font-size: 2.5rem;
+    }
+
+    & p {
+        font-size: 1.8rem;
+        margin-top: .4rem;
+
+    }
+}
+
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+            Our Tourist Guide Section Design 
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.best-for-you {
+    padding: 12rem 5rem 0 5rem;
+}
+
+.info-best {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    & h3 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f3711b;
+    }
+
+    & hr {
+        width: 1.5rem;
+        border: 1.5px solid #f3711b;
+
+    }
+}
+
+.best-for-you .best-guide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.best-guide .best-features {
+    margin-top: 2rem;
+
+    & h1 {
+        font-size: 3rem;
+    }
+
+    & h3 {
+        font-size: 2rem;
+        margin-top: .5rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        margin-top: .8rem;
+    }
+
+}
+
+.best-guide-features {
+    display: flex;
+    gap: 2.2rem;
+}
+
+.best-features-guide-2 {
+
+    & i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eee1d8e0;
+        font-size: 2.5rem;
+        color: #f3711b;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    & h3 {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        margin-top: .5rem;
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+         Our Choosing Destinaiton Design 
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+
+.choosing-destinations {
+    width: 100%;
+    padding-top: 8rem;
+}
+
+
+.destinaitons-content {
+    margin: 4rem 3rem 0 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(234, 239, 239, 0.882);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 80%;
+    height: 35rem;
+
+}
+
+.info-heading {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    justify-content: center;
+
+    & h4 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f3711b;
+    }
+
+    & hr {
+        width: 1.5rem;
+        border: 1px solid #f3711b;
+    }
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+    & h1 {
+        font-size: 5rem;
+    }
+
+    & span {
+        font-weight: 400;
+    }
+
+    & h4 {
+        font-size: 4rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding: 4rem 2rem 2rem 4rem;
+    }
+}
+
+.destiantion-booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    width: 60%;
+    height: 6rem;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: -3rem 3rem 5rem 28rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    & button {
+        padding: .5rem 1rem .5rem 1rem;
+        border: 1px solid #f3711b;
+        background-color: #fff;
+        color: #f3711b;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        font-size: 1.8rem;
+    }
+
+    & button:hover {
+        background: #f3711b;
+        color: #fff;
+    }
+}
+
+
+.destionation-booking-content {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    & i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: #f4cdb3b5;
+        color: #f3711b;
+        font-size: 2.3rem;
+    }
+}
+
+.destionation-booking-content .destination-booking-para {
+
+    & h4 {
+        font-size: 1.2rem;
+    }
+
+    & p {
+        margin-top: .5rem;
+        font-size: 1rem;
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+         Our Visiting Dream Places Design
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.info-dream-places {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    padding: 8rem 4rem 4rem 4rem;
+
+    & button {
+        padding: .5rem 1rem .5rem 1rem;
+        border: 1px solid #f3711b;
+        background: #f3711b;
+        color: #fff;
+
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        
+    }
+
+    & button:hover {
+        background-color: #fff;
+        color: #f3711b;
+    }
+}
+
+.best-visiting-place{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.image-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 42rem;
+    height: 42rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+
+    & img {
+        width: 40rem;
+        height: 28rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        margin-top: -1.5rem;
+    }
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+    padding-top: 2rem;
+
+    & h4 {
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    & button {
+        padding: .5rem 1rem .5rem 1rem;
+        border: 1px solid #f3711b;
+        background-color: #fff;
+        color: #f3711b;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        font-size: 1.8rem;
+    }
+
+    & button:hover {
+        background: #f3711b;
+        color: #fff;
+    }
+
+}
+
+.box-content-location {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    margin-left: -14rem;
+
+    & i {
+        color: #f3711b;
+        font-size: 1.8rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+         Our Testimonials and customer Design
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.customer-review-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem 5rem 5rem 5rem;
+    gap: 10rem;
+}
+
+.info-review {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .8rem;
+
+    & h4 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #f3711b;
+    }
+
+    & hr {
+        width: 1.5rem;
+        border: 1.6px solid #f3711b;
+    }
+}
+
+.info-review-heading {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+    & h2 {
+        font-size: 5rem;
+    }
+
+    & h3 {
+        font-size: 4rem;
+        margin-top: .8rem;
+        font-weight: 500;
+
+    }
+
+}
+
+.info-review-content {
+    background-color: #f1eaeae4;
+    padding: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.customer-identity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}
+
+.customer-identity-details {
+
+    & h4 {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: .2rem;
+    }
+}
+
+.customer-review-para {
+    margin-top: .6rem;
+
+    & p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-wrap: wrap;
+        text-align: justify;
+    }
+}
+
+.customer-review-star {
+    color: rgb(248, 174, 3);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* phot grid  */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    width: 50rem;
+    height: 40rem;
+}
+
+.grid-item {
+    background-image: url("../Images/Subhash-6.jpg");
+    /*ReplacewithyourimageURL*/
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Customize sizes and positions for each grid item */
+.item1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item2 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.item3 {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.item4 {
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 2;
+}
+
+.item5 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.item6 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.item7 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+}
+
+/* .item8 { grid-column: 5 / span 1; grid-row: 3 / span 1; } */
+
+.item9 {
+    grid-column: 3 / span 3;
+    grid-row: 3 / span 3;
+}
+
+/* .item10 { grid-column: 2 / span 1; grid-row: 4 / span 1; }
+.item11 { grid-column: 3 / span 1; grid-row: 4 / span 1; }
+.item12 { grid-column: 4 / span 1; grid-row: 4 / span 1; }
+.item13 { grid-column: 5 / span 1; grid-row: 4 / span 1; }
+.item14 { grid-column: 1 / span 5; grid-row: 5 / span 1; } */
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+        customer Discount Design
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.customer-discount {
+    padding: 5rem 4rem 4rem 5rem;
+
+}
+
+.discount-cupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 174, 172);
+    padding: 5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    & h1 {
+        font-size: 5rem;
+        /* text-transform: uppercase; */
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    & h4 {
+        font-size: 4rem;
+        /* text-transform: uppercase; */
+        /* text-transform: capitalize; */
+        font-weight: 500;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    & h6 {
+        font-size: 2rem;
+        /* text-transform: uppercase; */
+        /* text-transform: capitalize; */
+        font-weight: 400;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    & button {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
+        background-color: #f3711b;
+        border: 1px solid #f3711b;
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 1.5rem;
+
+    }
+
+    & button:hover {
+        background-color: #fff;
+        color: #f3711b;
+    }
+}
+
+/*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
+    Footer Section Design
+⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
+.footer-section {
+    padding: 5rem 5rem 2rem 5rem;
+}
+
+.footer-content{
+
+    & hr{
+        margin-top: 1rem;
+    }
+
+    & p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: .6rem;
+    }
+}
+
+.footer-logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo-content .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    & img {
+        width: 3rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.footer-logo-content .newsletter {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    & .icon1 {
+        font-size: 1.8rem;
+        position: absolute;
+       
+        display: flex;
+        justify-content: start;
+        align-items: center;
+       
+        border-radius: .3rem;
+        -webkit-border-radius: .3rem;
+        -moz-border-radius: .3rem;
+        -ms-border-radius: .3rem;
+        -o-border-radius: .3rem;
+        margin-left: .8rem;
+    }
+
+    & input {
+        width: 24rem;
+        height: 3rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        color: black;
+    }
+
+    ::placeholder{
+        padding-left: 3.2rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    & input::placeholder {
+        color: black;
+    }
+
+    & .icon {
+        font-size: 1.6rem;
+        position: absolute;
+        color: #fff;
+        padding: .2rem;
+        background-color: #f3711b;
+        border-radius: .3rem;
+        -webkit-border-radius: .3rem;
+        -moz-border-radius: .3rem;
+        -ms-border-radius: .3rem;
+        -o-border-radius: .3rem;
+        margin-left: 21.8rem;
+    }
+
+    & .icon:hover{
+        color: #f3711b;
+        background-color: #fff;
+        font-size: 1.8rem;
+    }
+}
+
+
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.footer-links nav{
+
+    & h1{
+        font-size: 2.5rem;
+    }
+}
+
+.footer-links nav ul{
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    
+
+    & a{
+        text-decoration: none;
+        color: #000;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    & a:hover{
+        text-decoration: underline;
+        text-underline-offset: .8rem;
+        color: #f3711b;
+    }
+}
+
+.footer-icons{
+    margin-top: -10rem;
+    & h1{
+        font-size: 2.5rem;
+    }
+
+    & .social-icons{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        & i{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #f3711b;
+        }
+    }
+
+    & i:hover{
+        width: 3rem;
+        height: 3rem;
+        background-color: #f3711b;
+        color: #fff;
+       border-radius: 50%;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+}
+}
