@@ -110,10 +110,10 @@ html {
         font-size: 1.8rem;
     }
 
-    & .btn_1:hover {
+    /* & .btn_1:hover {
         background: #f3711b;
         color: #fff;
-    }
+    } */
 
     & .btn_2 {
         padding: .5rem 1rem .5rem 1rem;
