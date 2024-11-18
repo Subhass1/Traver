@@ -4,28 +4,38 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /*⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉
             Our Header Navbar Design 
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 
-.header {
 
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 100000;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding: 0 5rem 0 5rem;
+    background-color: #fff;
 }
 
-.header-section {
+.header {
     width: 100%;
     height: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 0 5rem 0 5rem;
+    /* transition: all 0.3s ease; */
+    /* position: relative; */
+    /* will-change: transform, top; */
 
     & i{
         /* background-color: #f3711b; */
@@ -37,10 +47,10 @@ html {
 
 }
 
-.header-section .logo {
+.header .logo {
     display: flex;
     align-items: center;
-    gap: .4rem;
+    gap: .8rem;
 
     & img {
         width: 4rem;
@@ -53,7 +63,7 @@ html {
 }
 
 
-.header-section nav {
+.header nav {
 
     & ul {
         display: flex;
@@ -73,8 +83,15 @@ html {
         color: #f3711b;
     }
 
+    
+
 }
 
+.header nav ul li:first-child a {
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    color: #f3711b;
+}
 .login-btn {
     display: flex;
     align-items: center;
