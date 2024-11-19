@@ -33,12 +33,8 @@ html {
     align-items: center;
 
     padding: 0 5rem 0 5rem;
-    /* transition: all 0.3s ease; */
-    /* position: relative; */
-    /* will-change: transform, top; */
 
     & i{
-        /* background-color: #f3711b; */
         color: #000;
         font-size: 3.5rem;
         font-weight: 800;
@@ -53,11 +49,11 @@ html {
     gap: .8rem;
 
     & img {
-        width: 4rem;
+        width: 3rem;
     }
 
     & p {
-        font-size: 2.5rem;
+        font-size: 1.6rem;
         font-weight: 600;
     }
 }
@@ -68,13 +64,13 @@ html {
     & ul {
         display: flex;
         list-style: none;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     & ul li a {
         color: #000;
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     & ul li a:hover {
@@ -107,7 +103,7 @@ html {
         -moz-border-radius: .5rem;
         -ms-border-radius: .5rem;
         -o-border-radius: .5rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     /* & .btn_1:hover {
@@ -120,7 +116,7 @@ html {
         border: 1px solid #f3711b;
         background: #f3711b;
         color: #fff;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         border-radius: .5rem;
         -webkit-border-radius: .5rem;
         -moz-border-radius: .5rem;
@@ -139,37 +135,39 @@ html {
             Our Home Section Design 
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 .Main-section {
-    padding: 3rem 10rem 0 3rem;
-    margin-top: 10rem;
+    width: 100%;
+    height: 100vh;
+    padding: 6rem 10rem 0 10rem;
+    
 }
 
 .Hero-main-section {
-    width: 100%;
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 18rem;
+    gap: 26rem;
 
 }
 
 .hero-main-left .hero-main-content {
     display: flex;
     align-items: center;
-    margin-top: -20rem;
+    
 
     & img {
-        width: 6rem;
+        width: 4rem;
     }
 
     & h2 {
-        font-size: 4rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f3711b;
+        padding-left: 1rem;
     }
 
     & hr {
-        width: 2.5rem;
+        width: 2rem;
         border: 1px solid #f3711b;
         margin-left: .6rem;
     }
@@ -179,26 +177,30 @@ html {
 
 .hero-main-left .hero-main-para {
 
-
+padding-top: 4rem;
     & h1 {
-        font-size: 8rem;
-        font-weight: 900;
+        font-size: 4rem;
+        /* font-weight: 900; */
     }
 
     & h3 {
-        font-size: 7rem;
+        font-size: 5rem;
         font-weight: 700;
     }
 
     & h5 {
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight: 500;
     }
 
     & p {
-        font-size: 1.8rem;
+        padding-top: 2.5rem;
+        font-size: 1.4rem;
         font-weight: 400;
-        margin-top: 1rem;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
+        padding-bottom: 2rem;
     }
 }
 
@@ -207,7 +209,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* position: relative; */
+    position: relative;
     gap: 4rem;
 
 }
@@ -240,10 +242,10 @@ html {
 
         & p {
             text-align: center;
-            font-size: 1.2rem;
-            color: #0000009a;
+            font-size: 1rem;
+            color: rgba(25, 24, 37, 0.5);
             font-weight: 500;
-            margin-top: .5rem;
+            padding-top: .8rem;
         }
 
 
@@ -283,12 +285,13 @@ html {
         position: absolute;
 
         & h4 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
 
         & p {
-            font-size: 1.5rem;
-            color: #0000009a;
+            font-size: 1.2rem;
+            /* color: #0000009a; */
+            color: rgba(25, 24, 37, 0.5);
         }
     }
 
@@ -344,9 +347,8 @@ html {
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
     padding: 0 4rem 0 2rem;
-    margin-top: -14rem;
     z-index: 99;
-    position: relative;
+    position: absolute;
 
     & hr {
         height: 4rem;
@@ -354,10 +356,7 @@ html {
     }
 
     & button {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
+        padding: .5rem 1.5rem .5rem 1.5rem;
         border-radius: .5rem;
         -webkit-border-radius: .5rem;
         -moz-border-radius: .5rem;
@@ -366,7 +365,7 @@ html {
         background-color: #f3711b;
         border: 1px solid #f3711b;
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     & button:hover {
@@ -385,7 +384,7 @@ html {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 3rem;
+        font-size: 2rem;
         background: #f9ebe2;
         color: #f3711b;
         width: 5rem;
@@ -399,14 +398,17 @@ html {
 
     .booking-content {
         & h4 {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             font-weight: 600;
         }
 
         & p {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 500;
-            margin-top: .3rem;
+            word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
+        padding-top: .8rem;
         }
     }
 }
@@ -415,7 +417,9 @@ html {
             Our About Section Design 
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 .about-section {
-    padding: 15rem 5rem 0 5rem;
+    width: 100%;
+    height: auto;
+    padding: 16rem 10rem 0 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -480,7 +484,7 @@ html {
 
 .right-about-section {
     /* margin-top: 6rem; */
-    padding-top: 15rem;
+    /* padding-top: 15rem; */
 }
 
 .right-about-section .about-content {
@@ -490,13 +494,13 @@ html {
 
 
     & h3 {
-        font-size: 3rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f3711b;
     }
 
     & hr {
-        width: 1.5rem;
+        width: 1.2rem;
         border: 1px solid #f3711b;
 
     }
@@ -507,24 +511,31 @@ html {
 .right-about-section .info-about-content {
 
     & h1 {
-        font-size: 5rem;
+        padding-top: 2rem;
+        font-size: 2rem;
         margin-top: .8rem;
         font-weight: bold;
     }
 
     & h3 {
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 500;
     }
 
     & h6 {
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         font-weight: 400;
     }
 
     & p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
+        padding-top: 2.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
+        /* padding-bottom: 2rem; */
+        
     }
 }
 
@@ -550,12 +561,13 @@ html {
     -o-border-radius: 1rem;
 
     & h4 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     & p {
-        font-size: 1.8rem;
-        margin-top: .4rem;
+        font-size: 1.4rem;
+        padding-top: .4rem;
+        color: rgba(25, 24, 37, 0.5);
 
     }
 }
@@ -565,7 +577,7 @@ html {
             Our Tourist Guide Section Design 
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 .best-for-you {
-    padding: 12rem 5rem 0 5rem;
+    padding: 16rem 10rem 0 10rem;
 }
 
 .info-best {
@@ -574,13 +586,13 @@ html {
     gap: .5rem;
 
     & h3 {
-        font-size: 3rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f3711b;
     }
 
     & hr {
-        width: 1.5rem;
+        width: 1.3rem;
         border: 1.5px solid #f3711b;
 
     }
@@ -594,20 +606,24 @@ html {
 }
 
 .best-guide .best-features {
-    margin-top: 2rem;
+    padding-top: 2rem;
 
     & h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     & h3 {
-        font-size: 2rem;
-        margin-top: .5rem;
+        font-size: 1.5rem;
+        padding-top: .6rem;
     }
 
     & p {
-        font-size: 1.5rem;
-        margin-top: .8rem;
+        padding-top: 1.6rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
     }
 
 }
@@ -636,13 +652,17 @@ html {
     }
 
     & h3 {
-        font-size: 1.6rem;
-        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
     }
 
     & p {
-        font-size: 1.5rem;
-        margin-top: .5rem;
+        padding-top: 1.6rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
     }
 }
 
@@ -1206,11 +1226,14 @@ align-items: center;
 .footer-logo-content .newsletter {
     display: flex;
     align-items: center;
-    position: relative;
+    width: 24rem;
+        height: 4rem;
+        background-color: #fff;
+        border: 1px solid #0000009c;
+        border-radius: .5rem;
 
     & .icon1 {
         font-size: 1.8rem;
-        position: absolute;
        
         display: flex;
         justify-content: start;
@@ -1225,18 +1248,13 @@ align-items: center;
     }
 
     & input {
-        width: 24rem;
-        height: 3rem;
-        border-radius: 1rem;
-        -webkit-border-radius: 1rem;
-        -moz-border-radius: 1rem;
-        -ms-border-radius: 1rem;
-        -o-border-radius: 1rem;
-        color: black;
+        padding-left: .8rem;
+        border: none;
+        outline: none;
     }
 
-    ::placeholder{
-        padding-left: 3.2rem;
+    & ::placeholder{
+        /* padding-left: 3.2rem; */
         font-size: 1.2rem;
         font-weight: 400;
     }
@@ -1246,23 +1264,26 @@ align-items: center;
     }
 
     & .icon {
-        font-size: 1.6rem;
-        position: absolute;
-        color: #fff;
-        padding: .2rem;
-        background-color: #f3711b;
-        border-radius: .3rem;
-        -webkit-border-radius: .3rem;
-        -moz-border-radius: .3rem;
-        -ms-border-radius: .3rem;
-        -o-border-radius: .3rem;
-        margin-left: 21.8rem;
+       margin-left: 2rem;
+        /* margin: 0 auto; */
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+        color: #f3711b;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
     }
 
     & .icon:hover{
-        color: #f3711b;
-        background-color: #fff;
-        font-size: 1.8rem;
+        border: 1px solid #f3711b;
+       
     }
 }
 
@@ -1273,6 +1294,7 @@ align-items: center;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    box-sizing: border-box;
 }
 
 .footer-links nav{
@@ -1314,18 +1336,21 @@ align-items: center;
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
+        
+
         & i{
+            width: 4rem;
+            height: 4rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #f3711b;
         }
     }
 
     & i:hover{
-        width: 3rem;
-        height: 3rem;
+       
         background-color: #f3711b;
         color: #fff;
        border-radius: 50%;
@@ -1335,3 +1360,4 @@ align-items: center;
        -o-border-radius: 50%;
 }
 }
+
