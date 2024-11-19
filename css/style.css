@@ -482,10 +482,7 @@ padding-top: 4rem;
     }
 }
 
-.right-about-section {
-    /* margin-top: 6rem; */
-    /* padding-top: 15rem; */
-}
+
 
 .right-about-section .about-content {
     display: flex;
@@ -672,16 +669,13 @@ padding-top: 4rem;
 
 .choosing-destinations {
     width: 100%;
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
+    padding-top: 16rem;
 }
 
 
 .destinaitons-content {
-    margin: 4rem 3rem 0 14rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     background-color: rgba(234, 239, 239, 0.882);
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -694,19 +688,21 @@ padding-top: 4rem;
 }
 
 .info-heading {
+    
     display: flex;
     align-items: center;
     gap: .6rem;
     justify-content: center;
+    padding-top: 4rem;
 
     & h4 {
-        font-size: 3rem;
+        font-size: 1.6rem;
         font-weight: 500;
         color: #f3711b;
     }
 
     & hr {
-        width: 1.5rem;
+        width: 1.3rem;
         border: 1px solid #f3711b;
     }
 }
@@ -716,10 +712,10 @@ padding-top: 4rem;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1.5rem;
+    padding-top: 2.5rem;
 
     & h1 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     & span {
@@ -727,36 +723,45 @@ padding-top: 4rem;
     }
 
     & h4 {
-        font-size: 4rem;
-        margin-top: 1rem;
+        font-size: 2rem;
+        padding-top: 1rem;
         font-weight: 500;
     }
 
     & p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
-        padding: 4rem 2rem 2rem 4rem;
+        font-size: 1.2rem;
+        padding-top: 2rem;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
+        text-align: center;
     }
 }
 
 .destiantion-booking {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     gap: 5rem;
     width: 60%;
     height: 6rem;
     background-color: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    margin: -3rem 3rem 5rem 28rem;
+   
+
+    margin: 0 auto;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+    text-align: center;
+    padding: 0 2rem 0 2rem; 
+    
 
     & button {
-        padding: .5rem 1rem .5rem 1rem;
+        /* padding: .5rem 1rem .5rem 1rem; */
+        width: 12rem;
+        height: 3rem;
         border: 1px solid #f3711b;
         background-color: #fff;
         color: #f3711b;
@@ -765,7 +770,7 @@ padding-top: 4rem;
         -moz-border-radius: .5rem;
         -ms-border-radius: .5rem;
         -o-border-radius: .5rem;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     & button:hover {
@@ -779,6 +784,7 @@ padding-top: 4rem;
     display: flex;
     align-items: center;
     gap: .8rem;
+    /* padding: 0 2rem 0 2rem; */
 
     & i {
         display: flex;
@@ -793,7 +799,7 @@ padding-top: 4rem;
         -o-border-radius: 50%;
         background-color: #f4cdb3b5;
         color: #f3711b;
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 }
 
@@ -804,8 +810,9 @@ padding-top: 4rem;
     }
 
     & p {
-        margin-top: .5rem;
+    padding-top: .5rem;
         font-size: 1rem;
+        color: rgba(25, 24, 37, 0.5);
     }
 }
 
@@ -1041,7 +1048,7 @@ align-items: center;
 }
 
 .grid-item {
-    background-image: url("../Images/Subhash-6.jpg");
+    background-image: url("../Images/travel1.PNG");
     /*ReplacewithyourimageURL*/
     background-size: cover;
     background-position: center;
