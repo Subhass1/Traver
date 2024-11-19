@@ -32,7 +32,7 @@ html {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 5rem 0 5rem;
+    padding: 0 10rem 0 10rem;
 
     & i{
         color: #000;
@@ -1129,15 +1129,14 @@ align-items: center;
         customer Discount Design
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 .customer-discount {
-    padding: 5rem 4rem 4rem 5rem;
+    width: 100%;
+    padding: 16rem 10rem 0 10rem;
 
 }
 
 .discount-cupon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
     background-color: rgb(233, 174, 172);
     padding: 5rem;
     border-radius: 1rem;
@@ -1146,36 +1145,32 @@ align-items: center;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 
+    text-align: center;
+
     & h1 {
-        font-size: 5rem;
-        /* text-transform: uppercase; */
+        font-size: 2rem;
         text-transform: capitalize;
-        font-weight: bold;
     }
 
     & h4 {
-        font-size: 4rem;
-        /* text-transform: uppercase; */
-        /* text-transform: capitalize; */
+        font-size: 1.2rem;
         font-weight: 500;
         text-align: center;
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
-    & h6 {
-        font-size: 2rem;
-        /* text-transform: uppercase; */
-        /* text-transform: capitalize; */
-        font-weight: 400;
+    & p {
+        font-size: 1rem;
         text-align: center;
-        margin-top: 1rem;
+        padding-top: 2rem;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+        color: rgba(25, 24, 37, 0.5);
     }
 
     & button {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
+        width: 10rem;
+        height: 3rem;
         border-radius: .5rem;
         -webkit-border-radius: .5rem;
         -moz-border-radius: .5rem;
@@ -1184,8 +1179,8 @@ align-items: center;
         background-color: #f3711b;
         border: 1px solid #f3711b;
         color: #fff;
-        font-size: 2rem;
-        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 2rem;
 
     }
 
@@ -1199,7 +1194,7 @@ align-items: center;
     Footer Section Design
 ⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉⇉ */
 .footer-section {
-    padding: 5rem 5rem 2rem 5rem;
+    padding: 16rem 10rem 3rem 10rem;
 }
 
 .footer-content{
@@ -1208,11 +1203,6 @@ align-items: center;
         margin-top: 1rem;
     }
 
-    & p{
-        font-size: 1.5rem;
-        font-weight: 500;
-        margin-top: .6rem;
-    }
 }
 
 .footer-logo-content {
@@ -1242,7 +1232,7 @@ align-items: center;
     width: 24rem;
         height: 4rem;
         background-color: #fff;
-        border: 1px solid #0000009c;
+        border: 1px solid rgba(25, 24, 37, 0.5);
         border-radius: .5rem;
 
     & .icon1 {
@@ -1251,7 +1241,7 @@ align-items: center;
         display: flex;
         justify-content: start;
         align-items: center;
-       
+        color: rgba(25, 24, 37, 0.5);
         border-radius: .3rem;
         -webkit-border-radius: .3rem;
         -moz-border-radius: .3rem;
@@ -1266,14 +1256,10 @@ align-items: center;
         outline: none;
     }
 
-    & ::placeholder{
-        /* padding-left: 3.2rem; */
-        font-size: 1.2rem;
-        font-weight: 400;
-    }
 
     & input::placeholder {
-        color: black;
+        color: rgba(25, 24, 37, 0.5);
+        font-size: 1.2rem;
     }
 
     & .icon {
@@ -1286,7 +1272,8 @@ align-items: center;
         width: 2.5rem;
         height: 2.5rem;
         font-size: 1.5rem;
-        color: #f3711b;
+
+        color: rgba(25, 24, 37, 0.5);
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -1295,7 +1282,7 @@ align-items: center;
     }
 
     & .icon:hover{
-        border: 1px solid #f3711b;
+        border: 1px solid rgba(25, 24, 37, 0.5);
        
     }
 }
@@ -1313,35 +1300,35 @@ align-items: center;
 .footer-links nav{
 
     & h1{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
 .footer-links nav ul{
     list-style: none;
-    margin-top: 1rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: .8rem;
+    gap: 1rem;
     
 
     & a{
         text-decoration: none;
-        color: #000;
-        font-size: 2rem;
+        color: rgba(25, 24, 37, 0.5);
+        font-size: 1.2rem;
         font-weight: 400;
     }
     & a:hover{
         text-decoration: underline;
-        text-underline-offset: .8rem;
+        text-underline-offset: .4rem;
         color: #f3711b;
     }
 }
 
 .footer-icons{
-    margin-top: -10rem;
+    /* margin-top: -10rem; */
     & h1{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     & .social-icons{
@@ -1359,6 +1346,11 @@ align-items: center;
             justify-content: center;
             font-size: 2.5rem;
             color: #f3711b;
+            border-radius: 50%;
+       -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+       -ms-border-radius: 50%;
+       -o-border-radius: 50%;
         }
     }
 
@@ -1366,11 +1358,16 @@ align-items: center;
        
         background-color: #f3711b;
         color: #fff;
-       border-radius: 50%;
-       -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-       -ms-border-radius: 50%;
-       -o-border-radius: 50%;
+       
 }
+
+
+}
+
+.Coopyright-CONTENT{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: rgba(25, 24, 37, 0.5);
 }
 
